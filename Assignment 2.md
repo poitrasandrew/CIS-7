@@ -17,5 +17,5 @@
    B(x) = x is reptiles
    
    There exists an animal where it is a mammal and there exists an animal where it is a reptile.
-   Not equivalent to
+   Not equivalent to.
    There exists an animal that is both a mammal and a reptile.
