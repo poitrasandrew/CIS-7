@@ -15,4 +15,5 @@
 | T | F | F  | T  | F        | T       | F                | T
 | F | T | T  | F  | T        | T       | T                | T
 | F | F | T  | T  | T        | F       | T                | T
+
 Tautology
