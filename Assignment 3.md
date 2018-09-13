@@ -5,9 +5,13 @@
     (S ^ H) -> (M v C)
     
 2.a. Use a truth table to determine whether this is a tautology, contradiction, or neither: (¬B → ¬A) → ((¬B → A) → B)
-    | A | B | ¬A | ¬B | ¬B → ¬A | ¬B → A | ((¬B → A) → B)
-    |---|---|--- |--- | ------- | ------ | --------------
-    | T | T |    |    |         |        | 
-    | T | F |    |    |         |        |
-    | F | T |    |    |         |        |
-    | F | F |    |    |         |        |
+```
+(¬B → ¬A) → ((¬B → A) → B)
+```
+
+| A | B | ¬A | ¬B | ¬B -> ¬A | ¬B -> A | ((¬B -> A) -> B
+|---|---|--- |--- | -------- | ------- | ---------------
+| T | T | F  | F  | T        |         |
+| T | F | F  | T  | F        |         |
+| F | T | T  | F  | T        |         |
+| F | F | T  | T  | T        |         |
