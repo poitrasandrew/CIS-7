@@ -32,9 +32,10 @@ Tautology
 
 Neither
 
-##3.a.: - [ ] (p ∧ q) → r  <=> p → (q → r)
-     - [ ] (p ^ q)' v r <=> p' v (q' v r) Implication x3
-     - [ ]  p' v q' v r  <=> p' v q' v r   De Morgan's + Associative
+3.a. 
+ - [ ](p ∧ q) → r  <=> p → (q → r)
+ - [ ] (p ^ q)' v r <=> p' v (q' v r) Implication x3
+ - [ ]  p' v q' v r  <=> p' v q' v r   De Morgan's + Associative
      
 3.b. - [ ] (q ∨ r ) → p        <=> (q → p) ∧ (r → p)
      - [ ] (q v r )' v p       <=> (q' v p) ^ (r' v p) Implication x3
