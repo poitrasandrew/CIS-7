@@ -37,9 +37,10 @@ Neither
  - [ ] (p ^ q)' v r   <=> p' v (q' v r) Implication x3
  - [ ]  p' v (q' v r) <=> p' v (q' v r) De Morgan's + Commutative
      
-3.b. - [ ] (q ∨ r ) → p        <=> (q → p) ∧ (r → p)
-     - [ ] (q v r )' v p       <=> (q' v p) ^ (r' v p) Implication x3
-     - [ ] (q' ^ r') v p       <=> (q' v p) ^ (r' v p) De Morgan's
-     - [ ] (q' v p) ^ (r' v p) <=> (q' v p) ^ (r' v p) Distributive
+3.b. 
+ - [ ] (q ∨ r ) → p        <=> (q → p) ∧ (r → p)
+ - [ ] (q v r )' v p       <=> (q' v p) ^ (r' v p) Implication x3
+ - [ ] (q' ^ r') v p       <=> (q' v p) ^ (r' v p) De Morgan's
+ - [ ] (q' v p) ^ (r' v p) <=> (q' v p) ^ (r' v p) Distributive
      
 4.a. 
