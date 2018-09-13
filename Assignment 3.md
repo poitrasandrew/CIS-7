@@ -32,15 +32,31 @@ Tautology
 
 Neither
 
-3.a. 
+3.a. Show Equivalency
  - [ ] (p ∧ q) → r    <=> p → (q → r)
  - [ ] (p ^ q)' v r   <=> p' v (q' v r) Implication x3
  - [ ]  p' v (q' v r) <=> p' v (q' v r) De Morgan's + Commutative
      
-3.b. 
+3.b. Show Equivalency
  - [ ] (q ∨ r ) → p        <=> (q → p) ∧ (r → p)
  - [ ] (q v r )' v p       <=> (q' v p) ^ (r' v p) Implication x3
  - [ ] (q' ^ r') v p       <=> (q' v p) ^ (r' v p) De Morgan's
  - [ ] (q' v p) ^ (r' v p) <=> (q' v p) ^ (r' v p) Distributive
      
-4.a. 
+4.a. Translate into English: ∃x∀y∀z(C i t y(x) ∧ Traveler (y) ∧ Lives(z,x)) → (Loves(y,x)∧ ¬Loves(z,x)):
+     Everyone that travels to a city loves it and everyone that lives in a city does not love it.
+     
+4.b. Translate into Predicate Logic: “No traveler loves the city they live in.”:
+     ∃x∀y(City(x) ^ Traveler(y) ^ Lives(y,x)) -> (¬Loves(y,x))
+     
+## Extra Credit: (5 points)
+```
+Assuming: p → (q ∧ r ), s → r , r → p
+Prove: s → q.
+
+Assuming: ¬(r ∨ s), ¬p → s, p → q. 
+Prove: q
+
+HINT:
+Modus Ponen: If x -> q, and x, then q
+Modus Tollens: If x -> q, and ~q, then ~x
