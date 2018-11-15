@@ -9,18 +9,29 @@
  
  2. If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
  
- Exhaustive.
+ Exhaustive Proof.
  - [ ] 25 = 5 * 5 = 16 + 9 = (4 * 4) + (3 * 3)
  - [ ] 100 = 10 * 10 = 36 + 64 = (6 * 6) + (8 * 8)
  - [ ] 169 = 13 * 13 = 144 + 25 = (12 * 12) + (5 * 5)
  
  3. The sum of two odd integers is even.  Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1	
  
- 
+ Direct Proof.
+  - [ ] Let x = 2n + 1 and y = 2m + 1
+  - [ ] x + y = 2(n + m + 1)
+  - [ ] Let k = n + m + 1
+  - [ ] x + y = 2k
+  - [ ] 2k is even by definition, therefore x + y is even
  
 4. The sum of an even integer and it's square is even
 
-
+Direct Proof.
+- [ ] Let x = 2n and y = x^2 = 4n^2
+- [ ] x + y = 2n + 4n^2
+- [ ] x + y = 2(n + 2n)
+- [ ] Let k = n + 2n
+- [ ] x + y = 2k
+- [ ] 2k is even by definition, therefore x + y is even
 
  5. If n squared is odd, then n is odd
  
