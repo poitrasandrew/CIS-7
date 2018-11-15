@@ -60,12 +60,25 @@ Direct Proof.
 2. Prove that for any positive integer number n, n^3 + 2n is divisible by 3			
 
 - [ ] Base Case: n = 1
-- [ ] 1^3 + 2 * 1 = 3, 3/3 = 1
+- [ ] 1^3 + 2 * 1 = 3m
+- [ ] 3 = 3m , true
 - [ ] Inductive Hypothesis: assume true for k, show k + 1 is true
-- [ ] (k+1)^3 + 2(k+1) = k^3 + 3k^2 + 5k + 3
+- [ ] k^3 + 2k = 3m , assume true
+- [ ] (k+1)^3 + 2(k+1) = k^3 + 3k^2 + 3k + 1 + 2k + 2
+- [ ] = k^3 + 2k + 3(k^2 + k + 1)
+- [ ] = 3(m + k^2 + k + 1) , true
+- [ ] It has been proven that if k is true then k+1 is also true and k is true for k=1 so all values n are true
 
 3. Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers
 		Hint: 4^(3+1) = 4 * 4^3
 		Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1   
-  
+  - [ ] Base Case: n = 1
+  - [ ] 9^1 - 1 = 8 , true
+  - [ ] Inductive Hypothesis: Assume k is true, show k+1 is true
+  - [ ] 9^k - 1 = 8m , assume true
+  - [ ] 9^(k+1) - 1 = 9 * 9^k - 1
+  - [ ] = 9 * (8m + 1) - 1
+  - [ ] = 72m + 9 - 1
+  - [ ] = 8(9m + 1) , true
+  - [ ] If k is true then k+1 is true, k is true for k = 1, all positive integers n are true.
 
