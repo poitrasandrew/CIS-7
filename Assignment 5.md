@@ -1,3 +1,5 @@
+## Part 1: (10 points)
+
 1. Show that the square root of 2 is irrational.
 
  Using contradiction, assume radical 2 is rational and can be expressed as b/a, where b and a have no common factors.
@@ -35,4 +37,33 @@ Direct Proof.
 
  5. If n squared is odd, then n is odd
  
+ Contraposition.
+ - [ ] If n is even then n squared is even
+ - [ ] Let n = 2m
+ - [ ] n * n = 4m^2
+ - [ ] Let k = 2m^2
+ - [ ] n * n = 2k Which is even by definition, by contrapositive law, If n squared is odd then n is odd.
  
+ ## Part 2: (10 points)
+ 
+1. Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+
+- [ ] Base Case: n = 1
+- [ ] 4*1-3 = 1(2*1-1)
+- [ ] 1 = 1 true
+- [ ] Inductive Hypothesis: Assume true for k show k + 1 is true
+- [ ] k(2k-1) + 4k+1 = (k+1)(2(k+1)-1)
+- [ ] 2k^2 -k+4k+1 = (k+1)(2k+1)
+- [ ] 2k^2 +3k+1 = 2k^2 +3k+1 
+- [ ] It has been proven when k=1, therefore the statment is true for n
+
+2. Prove that for any positive integer number n, n^3 + 2n is divisible by 3			
+
+- [ ] Base Case: n = 1
+- [ ] 1^3 + 2 * 1 = 3
+
+3. Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers
+		Hint: 4^(3+1) = 4 * 4^3
+		Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1   
+  
+
