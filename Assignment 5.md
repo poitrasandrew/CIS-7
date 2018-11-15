@@ -49,18 +49,20 @@ Direct Proof.
 1. Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 
 - [ ] Base Case: n = 1
-- [ ] 4*1-3 = 1(2*1-1)
+- [ ] 4 * 1 - 3 = 1(2 * 1 - 1)
 - [ ] 1 = 1 true
 - [ ] Inductive Hypothesis: Assume true for k show k + 1 is true
 - [ ] k(2k-1) + 4k+1 = (k+1)(2(k+1)-1)
 - [ ] 2k^2 -k+4k+1 = (k+1)(2k+1)
 - [ ] 2k^2 +3k+1 = 2k^2 +3k+1 
-- [ ] It has been proven when k=1, therefore the statment is true for n
+- [ ] It has been proven when k=1 and for k+1, therefore the statment is true for all n
 
 2. Prove that for any positive integer number n, n^3 + 2n is divisible by 3			
 
 - [ ] Base Case: n = 1
-- [ ] 1^3 + 2 * 1 = 3
+- [ ] 1^3 + 2 * 1 = 3, 3/3 = 1
+- [ ] Inductive Hypothesis: assume true for k, show k + 1 is true
+- [ ] (k+1)^3 + 2(k+1) = k^3 + 3k^2 + 5k + 3
 
 3. Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers
 		Hint: 4^(3+1) = 4 * 4^3
