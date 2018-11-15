@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 
 using namespace std;
 
@@ -6,6 +7,7 @@ int GCDCalc(int, int);
 
 int main() {
 	int num1, num2;
+	int beg, endt;
 	bool check = false, end = false;
 	cout << "Let's find the GCD of 2 numbers.\n";
 	do {
@@ -31,7 +33,10 @@ int main() {
 				cout << "Please enter a positive integer: ";
 			}
 		} while (!check);
+		beg = time(0);
 		cout << "The GCD of " << num1 << " and " << num2 << " is " << GCDCalc(num1, num2) << endl << endl;
+		endt = time(0);
+		cout << "The function took " << endt - beg << " seconds to complete.\n";
 		cout << "Would you like to do another one?\n" << "1. Yes\n" << "2. No\n";
 		cin >> num1;
 		if (num1 == 1) {
