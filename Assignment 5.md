@@ -1,4 +1,5 @@
- - [ ]  Show that the square root of 2 is irrational.
+1. Show that the square root of 2 is irrational.
+
  Using contradiction, assume radical 2 is rational and can be expressed as b/a, where b and a have no common factors.
  - [ ] 2^(1/2) = b/a
  - [ ] 2 = b^2/a^2
